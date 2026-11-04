@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+instance/
+*.db
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+*.log
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
